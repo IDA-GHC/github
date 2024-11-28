@@ -30,5 +30,4 @@ echo "Jenkins installed and running. Access it at http://<your-server-ip>:8080"
 echo "Retrieving initial admin password..."
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
-echo "Installation complete. Use the above password to set up Jenkins in your browser."
 
