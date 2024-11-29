@@ -17,9 +17,5 @@ fi
 echo "$MESSAGE" > "$DIR_NAME/$FILE_NAME"
 echo "Message written to $DIR_NAME/$FILE_NAME."
 
-# Display the content of the file
-echo "Content of $DIR_NAME/$FILE_NAME:"
-cat "$DIR_NAME/$FILE_NAME"
 
-# End of script
 
