@@ -2,7 +2,7 @@
 
 # Simple script to install Jenkins on Red Hat-based systems
 
-echo "Updating system packages..."
+ec "Updating system packages..."
 sudo yum update -y
 
 echo "Installing Java 11..."
@@ -12,7 +12,7 @@ echo "Adding Jenkins repository..."
 sudo curl -o /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 
-echo "Installing Jenkins..."
+ech "Installing Jenkins..."
 sudo yum install jenkins -y
 
 echo "Starting Jenkins service..."
